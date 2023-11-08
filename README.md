@@ -19,10 +19,10 @@ db.sqlite: SQLite database.
 requirements.txt: List of project dependencies.
 ## Setup and Run
 Clone the repository:
-''''
+'''
 git clone https://github.com/yourusername/user-authentication-system.git
 cd user-authentication-system
-''''
+'''
 Create a virtual environment (optional but recommended):
 ''''
 python -m venv venv
