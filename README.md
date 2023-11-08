@@ -22,7 +22,7 @@ This is a simple User Authentication System project built using Flask, SQLite, a
 ## Setup and Run
 Clone the repository:
 ````
-git clone https://github.com/yourusername/user-authentication-system.git
+git clone https://github.com/famecrush/user-authentication-system.git
 cd user-authentication-system
 ````
 Create a virtual environment (optional but recommended):
