@@ -2,21 +2,22 @@
 This is a simple User Authentication System project built using Flask, SQLite, and Bcrypt for password hashing. It includes user registration, login, session management, and secure password hashing. The system is designed for educational purposes to demonstrate the fundamentals of user authentication.
 
 ## Technologies Used
-~ Programming Language: Python
-~ Web Framework: Flask
-~ Database: SQLite
-~ Password Hashing: Bcrypt
-~ HTML/CSS for Frontend
+* Programming Language: Python
+* Web Framework: Flask
+* Database: SQLite
+* Password Hashing: Bcrypt
+* HTML/CSS for Frontend
 
 ## Project Structure
-~ app.py: Main application file.
-~ templates/: HTML templates.
-~ login.html: Login form.
-~ register.html: Registration form.
-~ static/: CSS and other static files.
-~ style.css: CSS stylesheet for styling the HTML templates.
-~ db.sqlite: SQLite database.
-~ requirements.txt: List of project dependencies.
+* app.py: Main application file.
+* templates/: HTML templates.
+  * login.html: Login form.
+  * register.html: Registration form.
+  * logout.html: Logout form.
+* static/: CSS and other static files.
+  * style.css: CSS stylesheet for styling the HTML templates.
+* db.sqlite: SQLite database.
+* requirements.txt: List of project dependencies.
 
 ## Setup and Run
 Clone the repository:
@@ -80,7 +81,7 @@ SELECT * FROM users;
 ````
 To exit the SQLite shell, type ````.exit```` or press Ctrl + D.
 
-These commands allow you to explore the database and retrieve information as needed. Always be cautious when interacting with databases and ensure you have the necessary permissions to access the data.
+These commands allow you to explore the database and retrieve information as needed. 
 
 The password hashes in the password column are securely hashed using the Bcrypt hashing algorithm.
 
