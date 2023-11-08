@@ -42,10 +42,10 @@ python app.py
 Access the application in your web browser at http://localhost:5000.
 
 ## Usage
-Visit the home page and choose between "Login" and "Register."
-Register: Sign up with a username and password. Passwords are securely hashed before storing in the database.
-Login: Registered users can log in using their username and password. Session management keeps users logged in until they log out.
-Logout: To log out, click the "Logout" link.
+* Visit the home page and choose between "Login" and "Register."
+* Register: Sign up with a username and password. Passwords are securely hashed before storing in the database.
+* Login: Registered users can log in using their username and password. Session management keeps users logged in until they log out.
+* Logout: To log out, click the "Logout" button.
 
 ## Accessing the Database
 You can access the SQLite database used in this User Authentication System for debugging and analysis. Below are some commands to interact with the database using the SQLite command-line utility:
