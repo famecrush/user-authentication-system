@@ -2,21 +2,21 @@
 This is a simple User Authentication System project built using Flask, SQLite, and Bcrypt for password hashing. It includes user registration, login, session management, and secure password hashing. The system is designed for educational purposes to demonstrate the fundamentals of user authentication.
 
 ## Technologies Used
-Programming Language: Python
-Web Framework: Flask
-Database: SQLite
-Password Hashing: Bcrypt
-HTML/CSS for Frontend
+~ Programming Language: Python
+~ Web Framework: Flask
+~ Database: SQLite
+~ Password Hashing: Bcrypt
+~ HTML/CSS for Frontend
 
 ## Project Structure
-app.py: Main application file.
-templates/: HTML templates.
-login.html: Login form.
-register.html: Registration form.
-static/: CSS and other static files.
-style.css: CSS stylesheet for styling the HTML templates.
-db.sqlite: SQLite database.
-requirements.txt: List of project dependencies.
+~ app.py: Main application file.
+~ templates/: HTML templates.
+~ login.html: Login form.
+~ register.html: Registration form.
+~ static/: CSS and other static files.
+~ style.css: CSS stylesheet for styling the HTML templates.
+~ db.sqlite: SQLite database.
+~ requirements.txt: List of project dependencies.
 
 ## Setup and Run
 Clone the repository:
@@ -78,7 +78,7 @@ To execute SQL queries, use standard SQL commands. For example, to retrieve all 
 ````
 SELECT * FROM users;
 ````
-To exit the SQLite shell, type ```` .exit```` or press Ctrl + D.
+To exit the SQLite shell, type ````.exit```` or press Ctrl + D.
 
 These commands allow you to explore the database and retrieve information as needed. Always be cautious when interacting with databases and ensure you have the necessary permissions to access the data.
 
@@ -93,8 +93,9 @@ John the Ripper
 You can use John the Ripper to crack the password hashes. If you haven't already obtained the password hashes you want to crack, you can find them in the db.sqlite database in the users table.
 
 Use John the Ripper with the appropriate options to crack the hashes. For example, to crack the hashes stored in a file named bcrypt-hashes.txt using a wordlist file named passwords.txt, run the following command:
-
+````
 john --format=bcrypt --wordlist=passwords.txt bcrypt-hashes.txt
+````
 Replace bcrypt-hashes.txt with the file containing the password hashes and passwords.txt with your password list.
 
 John the Ripper will attempt to crack the password hashes. If successful, it will display the cracked passwords.
