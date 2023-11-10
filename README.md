@@ -27,19 +27,23 @@ cd user-authentication-system
 ````
 Create a virtual environment (optional but recommended):
 ````
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 ````
 Install project dependencies:
 ````
-pip install -r requirements.txt
+pip3 install -r requirements.txt
+````
+Create database:
+````
+python3 db_create.py
 ````
 Run the application:
 ````
-python app.py
+python3 app.py
 ````
 
-Access the application in your web browser at http://localhost:5000.
+Access the application in your web browser at http://localhost:5000/login.
 
 ## Usage
 * Visit the home page and choose between "Login" and "Register."
