@@ -44,7 +44,7 @@ def login():
         if user and bcrypt.verify(password, user[1]):
             session['username'] = username
             flash('Login successful', 'success')
-            return redirect(url_for('login'))  # Redirect to login page
+            return redirect(url_for('profile'))  # Redirect to profile page
         else:
             flash('Login failed. Please check your username and password.', 'danger')
 
